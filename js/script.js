@@ -37,7 +37,7 @@ function inputElements(){
     else if(phoneForm.length>10 || phoneForm.length<10){
         document.getElementById("phonrError").innerHTML="*Required 10 digits";
         document.getElementById("phonrError").style.color="red";
-    } 
+    }
     else{
         document.getElementById("indian-form").classList.add("hide");
         document.getElementById("confirmation").classList.remove("hide");
