@@ -30,11 +30,8 @@ function inputElements(){
 
     
     var timeForm  =document.getElementById("Time").value;
-
-    if (nameForm==="" || phoneForm==="" || timeForm==="" || dateForm===""){
-        alert("Fill all Blocks");
-    } 
-    else if(phoneForm.length>10 || phoneForm.length<10){
+ 
+    if(phoneForm.length>10 || phoneForm.length<10){
         document.getElementById("phonrError").innerHTML="*Required 10 digits";
         document.getElementById("phonrError").style.color="red";
     }
